@@ -6,7 +6,7 @@
 /*   By: ilemos-c <ilemos-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/17 13:18:47 by ilemos-c          #+#    #+#             */
-/*   Updated: 2025/06/17 17:03:16 by ilemos-c         ###   ########.fr       */
+/*   Updated: 2025/06/19 14:56:43 by ilemos-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ int	ft_strncmp(char *s1, char	*s2, unsigned int n)
 	{
 		return (0);
 	}
-	else{
+	else
+	{
 		return (s1[i] - s2[i]);
 	}
 }

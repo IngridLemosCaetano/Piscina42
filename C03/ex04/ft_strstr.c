@@ -6,7 +6,7 @@
 /*   By: ilemos-c <ilemos-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/18 12:36:29 by ilemos-c          #+#    #+#             */
-/*   Updated: 2025/06/18 16:46:26 by ilemos-c         ###   ########.fr       */
+/*   Updated: 2025/06/19 14:57:10 by ilemos-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strstr(char *str, char *to_find)
 	while (str[i] != '\0')
 	{
 		j = 0;
-		while (str[i + j] != '\0' && str[i +j] == to_find[j])
+		while (str[i + j] != '\0' && str[i + j] == to_find[j])
 		{
 			if (to_find[j +1] == '\0')
 				return (&str [i]);
